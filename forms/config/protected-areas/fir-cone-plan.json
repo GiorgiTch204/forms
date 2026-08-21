@@ -1,0 +1,223 @@
+{
+  "agencySlug": "protected-areas",
+  "serviceSlug": "fir-cone-plan",
+  "title": "მიწის ნაკვეთის აბრისის სიტუაციური გეგმის მომზადება",
+  "description": "შეავსეთ განაცხადის ფორმა ნახაზის ან გეგმის მოსამზადებლად",
+  "applicationType": [
+    { "value": "drawing", "label": "ნახაზი" },
+    { "value": "plan", "label": "გეგმა" }
+  ],
+  "precondition": null,
+  "leftInfo": [
+    "ზოგადი ინფორმაცია",
+    "განმცხადებლის მონაცემები",
+    "სუბიექტის მონაცემები",
+    "თანდართული დოკუმენტები",
+    "ვადა და საფასური"
+  ],
+  "pdfs": [],
+  "ResponsiblePerson": [
+    {
+      "name": "ირაკლი",
+      "surname": "სისვაძე",
+      "mail": "Irakli.sisvadze@forestry.gov.ge",
+      "number": "595 00 00 20",
+      "InternalNumber": "5209"
+    },
+    {
+      "name": "სოფიო",
+      "surname": "თაბაგარი",
+      "mail": "sophio.tabagari@forestry.gov.ge",
+      "number": "574 55 60 68",
+      "InternalNumber": ""
+    }
+  ],
+  "subjectTypes": [
+    { "value": "individual", "label": "ფიზიკური პირი" },
+    { "value": "public-legal", "label": "საჯარო სამართლის იურიდიული პირი" }
+  ],
+  "applicantFields": [
+    {
+      "name": "applicantPersonalNumber",
+      "label": "პირადი ნომერი",
+      "type": "text",
+      "placeholder": "11 ციფრი",
+      "required": true
+    },
+    {
+      "name": "applicantSurname",
+      "label": "გვარი",
+      "type": "text",
+      "placeholder": "ჩაწერეთ გვარი",
+      "required": true
+    },
+    {
+      "name": "applicantName",
+      "label": "სახელი",
+      "type": "text",
+      "placeholder": "ჩაწერეთ სახელი",
+      "required": true
+    },
+    {
+      "name": "applicantPosition",
+      "label": "თანამდებობა",
+      "type": "text",
+      "placeholder": "ჩაწერეთ თანამდებობა",
+      "required": false
+    },
+    {
+      "name": "applicantPhone",
+      "label": "ტელეფონი",
+      "type": "text",
+      "placeholder": "9 ციფრი",
+      "required": true
+    },
+    {
+      "name": "applicantEmail",
+      "label": "ელ. ფოსტა",
+      "type": "email",
+      "placeholder": "example@gmail.com",
+      "required": true
+    }
+  ],
+  "proxyDocumentField": {
+    "name": "proxyDocument",
+    "label": "დოკუმენტის ატვირთვა (მინდობილობის შემთხვევაში)",
+    "type": "file",
+    "required": false
+  },
+  "landOwnerField": null,
+  "subjectFields": {
+    "individual": [
+      {
+        "name": "individualPersonalNumber",
+        "label": "პირადი ნომერი",
+        "type": "text",
+        "placeholder": "11 ციფრი",
+        "required": true
+      },
+      {
+        "name": "individualSurname",
+        "label": "გვარი",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "individualName",
+        "label": "სახელი",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "individualActualAddress",
+        "label": "ფაქტობრივი მისამართი",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "individualPhone",
+        "label": "ტელეფონი",
+        "type": "text",
+        "placeholder": "9 ციფრი",
+        "required": true
+      },
+      {
+        "name": "individualEmail",
+        "label": "ელ. ფოსტა",
+        "type": "email",
+        "required": false
+      }
+    ],
+    "public-legal": [
+      {
+        "name": "publicLegalIdCode",
+        "label": "საიდენტიფიკაციო კოდი",
+        "type": "text",
+        "placeholder": "9 ციფრი",
+        "required": true
+      },
+      {
+        "name": "publicLegalCompanyName",
+        "label": "სახელწოდება",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "publicLegalAddress",
+        "label": "იურიდიული მისამართი",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "publicLegalActualAddress",
+        "label": "ფაქტობრივი მისამართი",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "publicLegalDirectorName",
+        "label": "ხელმძღვანელი პირი - სახელი",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "publicLegalDirectorSurname",
+        "label": "ხელმძღვანელი პირი - გვარი",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "publicLegalDirectorPersonalNumber",
+        "label": "ხელმძღვანელი პირი - პირადი ნომერი",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "publicLegalPhone",
+        "label": "ტელეფონი",
+        "type": "text",
+        "placeholder": "9 ციფრი",
+        "required": true
+      },
+      {
+        "name": "publicLegalEmail",
+        "label": "ელ. ფოსტა",
+        "type": "email",
+        "required": true
+      }
+    ]
+  },
+  "documentFields": [
+    {
+      "name": "shpFiles",
+      "label": "SHP ფაილები",
+      "required": false
+    },
+    {
+      "name": "coordinates",
+      "label": "კოორდინატები",
+      "required": true
+    },
+    {
+      "name": "cartographicMaterial",
+      "label": "კარტოგრაფიული მასალა",
+      "required": true
+    },
+    {
+      "name": "cadastralDrawing",
+      "label": "საკადასტრო აზომვითი ნახაზი",
+      "required": true
+    },
+    {
+      "name": "otherDocuments",
+      "label": "სხვა",
+      "required": false
+    }
+  ],
+  "termInfo": "ვადა - 5-30 სამუშაო დღე",
+  "feeInfo": "საფასური: 1 ჰა = 1 ლარი (მაგ. 100 ჰა - 100 ლარი)",
+  "feeConfig": {
+    "type": "flat",
+    "ratePerHectare": 1
+  }
+}
